@@ -1,0 +1,11 @@
+fastapi>=0.118,<1
+uvicorn[standard]>=0.37,<1
+python-multipart>=0.0.20,<1
+pydantic>=2.11,<3
+pydantic-settings>=2.10,<3
+SQLAlchemy>=2.0,<3
+GeoPandas>=1.1,<2
+Shapely>=2.1,<3
+pyproj>=3.7,<4
+pytest>=8,<9
+httpx>=0.28,<1
