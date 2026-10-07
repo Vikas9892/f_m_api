@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Document id="sample_survey">
+      <name>sample_survey</name>
+      <Placemark id="sample_survey.1">
+        <name>Commercial Zone</name>
+        <description>Downtown commercial plot</description>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                77.209,28.6139,0
+                77.215,28.6139,0
+                77.215,28.6189,0
+                77.209,28.6189,0
+                77.209,28.6139,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="sample_survey.2">
+        <name>Metro Corridor</name>
+        <description>Transit line segment</description>
+        <LineString>
+          <coordinates>
+            77.209,28.6139,0
+            77.22,28.625,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark id="sample_survey.3">
+        <name>Control Station</name>
+        <description>Survey benchmark</description>
+        <Point>
+          <coordinates>
+            77.212,28.616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
